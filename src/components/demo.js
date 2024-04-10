@@ -358,11 +358,11 @@ const DemoComp = () => {
                                 ))}
                               </tr>
                             </thead>
-                            <tbody
+                            {/* <tbody
                               data-testid="calendar-table"
                               className="wZGlUnakVDTcucBRQGo6 fGu8kxu560yIPsHH1Ad2 fqQfQuKMIf_qzgsSs7Ga"
-                            >
-                              <tr>
+                            > */}
+                              {/* <tr> */}
                                 {/* <td role="gridcell">
                                   {numbers.map((number) => (
                                     <button
@@ -378,9 +378,8 @@ const DemoComp = () => {
                                 </td> */}
 
 <CalendarTable data={data} />
-
-                                <td role="gridcell">
-                                  <button
+ {/* <td role="gridcell"> */}
+                                  {/* <button
                                     aria-label="Wednesday, May 1 - No times available"
                                     className="uvkj3lh ubvdp8w o5PJ_9jHomezuy5op7Th gyO7ZjgvT__guDnWiKg5 Vs7SzeE3xF36MXS0Ut7y"
                                     type="button"
@@ -388,28 +387,28 @@ const DemoComp = () => {
                                   >
                                     <span>1</span>
                                   </button>
-                                </td>
-                                <td role="gridcell">
+                                </td> */}
+                                {/* <td role="gridcell">
                                   <button
                                     aria-label="Thursday, May 2 - No times available"
                                     className="uvkj3lh ubvdp8w o5PJ_9jHomezuy5op7Th gyO7ZjgvT__guDnWiKg5 Vs7SzeE3xF36MXS0Ut7y"
-                                    type="button"
-                                    disabled
-                                  >
-                                    <span>2</span>
-                                  </button>
-                                </td>
-                                <td role="gridcell">
-                                  <button
-                                    aria-label="Friday, May 3 - No times available"
-                                    className="uvkj3lh ubvdp8w o5PJ_9jHomezuy5op7Th gyO7ZjgvT__guDnWiKg5 Vs7SzeE3xF36MXS0Ut7y"
-                                    type="button"
-                                    disabled
-                                  >
-                                    <span>3</span>
-                                  </button>
-                                </td>
-                                <td role="gridcell">
+                                    type="button" */}
+                                {/* //     disabled
+                                //   >
+                                //     <span>2</span>
+                                //   </button>
+                                // </td>
+                                // <td role="gridcell">
+                                //   <button */}
+                                {/* //     aria-label="Friday, May 3 - No times available"
+                                //     className="uvkj3lh ubvdp8w o5PJ_9jHomezuy5op7Th gyO7ZjgvT__guDnWiKg5 Vs7SzeE3xF36MXS0Ut7y"
+                                //     type="button"
+                                //     disabled
+                                //   >
+                                //     <span>3</span>
+                                //   </button>
+                                // </td> */}
+                                {/* <td role="gridcell">
                                   <button
                                     aria-label="Saturday, May 4 - No times available"
                                     className="uvkj3lh ubvdp8w o5PJ_9jHomezuy5op7Th gyO7ZjgvT__guDnWiKg5 Vs7SzeE3xF36MXS0Ut7y"
@@ -417,8 +416,8 @@ const DemoComp = () => {
                                     disabled
                                   >
                                     <span>4</span>
-                                  </button>
-                                </td>
+                                  </button> */}
+                                {/* </td>
                                 <td role="gridcell">
                                   <button
                                     aria-label="Sunday, May 5 - No times available"
@@ -428,9 +427,9 @@ const DemoComp = () => {
                                   >
                                     <span>5</span>
                                   </button>
-                                </td>
-                              </tr>
-                            </tbody>
+                                </td> */}
+                              {/* </tr> */}
+                            {/* </tbody> */}
                           </table>
                           <div
                             role="status"
